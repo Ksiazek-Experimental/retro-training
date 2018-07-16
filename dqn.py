@@ -44,7 +44,7 @@ def convert(s__):
     s__ = np.array([s__[:,:, None]])
     return s__
 
-env = retro.make(game='SonicTheHedgehog-Genesis', state='GreenHillZone.Act1', scenario='scenario2.json', record='.')
+env = retro.make(game='SonicTheHedgehog-Genesis', state='GreenHillZone.Act1', scenario='scenario2dqn.json', record='.')
 num_episodes = 1000
 y = 0.9
 eps = 0.99
