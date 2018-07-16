@@ -1,0 +1,26 @@
+{
+  "done": {
+    "variables": {
+      "lives": {
+        "op": "less-than",
+        "reference": 3
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "score": {
+        "reward": 10,
+        "measurement": "delta"
+      },
+      "x": {
+        "reward": 0.01,
+        "measurement": "absolute"
+      },
+      "rings": {
+        "reward": 1,
+        "measurement": "delta"
+      }
+    }
+  }
+}
