@@ -19,7 +19,7 @@ jedi==0.12.1
 jupyter-client==5.2.3
 jupyter-core==4.4.0
 Markdown==2.6.11
-numpy==1.14.5
+numpy==1.22.0
 opencv-python==3.4.1.15
 pandas==0.23.3
 parso==0.3.1
